@@ -100,12 +100,4 @@ class MySqlServiceTest extends TestCase
         $this->assertEquals($expect, $actual);
     }
 
-    public function testCreateDB()
-    {
-        // Act
-        $actual = $this->mySqlService->createDB("test");
-
-        // Assert
-        $this->assertEquals(true, $actual);
-    }
 }
